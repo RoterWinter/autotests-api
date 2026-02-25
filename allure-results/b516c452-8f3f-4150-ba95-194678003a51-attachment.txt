@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDEwOjQ3OjUyLjI2MDYxNSIsInVzZXJfaWQiOiI2OWI0ZDM1ZS02YmEyLTQ3NTgtYThiOC1iZWFlNDQ5MGUyYTIifQ.8XHs-ElTxnfAHmZ-TQjBK55PNpAVBYALbki6_ncmMj4' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Subject it add forget half.","maxScore":63,"minScore":8,"description":"Seek American where law. Human second sign you result add cup.\nShoulder senior laugh exist citizen news sing. Now stop add true huge adult soldier.","estimatedTime":"1 weeks","previewFileId":"827695c5-c39f-4213-bd0f-bf45f31fc284","createdByUserId":"69b4d35e-6ba2-4758-a8b8-beae4490e2a2"}'

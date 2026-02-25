@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDEwOjQ3OjUxLjU3NTA3MCIsInVzZXJfaWQiOiJmNzU4YmYxOS05M2JkLTQxODktODBkMi1iNWMwMGI1ZjY0MzAifQ.Ddn3FHv3wJiKqr3TBH9TGtTa9X90W0JAMMeWBBY8CGQ' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy consider market give final.","maxScore":82,"minScore":25,"description":"Hear practice return. Result nor local blue nature light. Owner color kitchen despite more.","estimatedTime":"5 weeks","previewFileId":"37916215-81d0-45d4-a939-d1e840f5b791","createdByUserId":"f758bf19-93bd-4189-80d2-b5c00b5f6430"}'

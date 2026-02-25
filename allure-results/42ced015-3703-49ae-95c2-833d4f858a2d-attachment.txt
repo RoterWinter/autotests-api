@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI1VDEwOjQ3OjU0Ljc5ODI2NyIsInVzZXJfaWQiOiJjZjVjYjg3Ny1kMzZiLTRjNDMtYmM3NS1lMDhjZjg5ODM0ODYifQ.t9yHy91LvseesX3qpRcsvdozeL39B_PwPQ7TGRC6NjM' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create large important leader.","maxScore":73,"minScore":19,"description":"Line natural thank degree team. Word cold soon ago activity evening. Result traditional I with half keep next.\nTraining free career station care present impact. Opportunity sound ten much peace form.","estimatedTime":"10 weeks","previewFileId":"3257e4a2-445b-4acd-b650-9ce156753ec6","createdByUserId":"cf5cb877-d36b-4c43-bc75-e08cf8983486"}'
