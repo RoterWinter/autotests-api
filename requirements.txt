@@ -10,3 +10,4 @@ pytest-rerunfailures==16.1
 pytest-xdist==3.8.0
 allure-python-commons
 swagger-coverage==3.5.1
+swagger_coverage_tool
