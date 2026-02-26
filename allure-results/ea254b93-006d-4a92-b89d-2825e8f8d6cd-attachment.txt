@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjQ4OjIwLjYwNzQ3MyIsInVzZXJfaWQiOiI1OWEyODVmZC1mNzM4LTQzNmItYWRlYS1iNzY4MGZmMmNhMDEifQ.eh1_5pMlLuQRtjCUuHfJovXtpaw0NGj4M8vDcrJ_0hY' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand me music.","maxScore":67,"minScore":17,"description":"Maintain put issue present Republican safe week. Stay catch even exactly movie. Attention trial former task behind draw.\nOfficer level change president painting. Evidence east ago now.","estimatedTime":"10 weeks","previewFileId":"1beb4a37-583a-45fe-a3c5-2dc17e78b7ec","createdByUserId":"59a285fd-f738-436b-adea-b7680ff2ca01"}'

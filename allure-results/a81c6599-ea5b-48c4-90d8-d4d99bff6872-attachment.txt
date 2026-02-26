@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjQ4OjE4LjMyNTQwNSIsInVzZXJfaWQiOiJiNGRiMDA0YS0xYWE3LTRkYmMtYmRkNy1iOGU5Mzg3M2RjOWMifQ.jpMPARIlpfNwsbzXPNFQN743UK4vK_K4XdyZkpBfA24' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student produce far.","maxScore":69,"minScore":21,"description":"Long trial level stage move. Security else whose course perform.\nArgue executive before. Thing road ten develop fly. Son past writer product five expect.","estimatedTime":"6 weeks","previewFileId":"fda88b3f-b01f-40e7-8a2b-ad8d5862b5ba","createdByUserId":"b4db004a-1aa7-4dbc-bdd7-b8e93873dc9c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjE4OjQ4LjE2ODA2MSIsInVzZXJfaWQiOiJlYTE1MWVjYi0yZTZhLTQ2ZDktOWQ0ZS1iYWRkYWIzZjFiNzUifQ.-av3uyAy3jGAJKnCpf65mWf5D1TP4Sek2A_uIiWkxGM' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manager own story stuff low full unit.","maxScore":72,"minScore":11,"description":"Way once suffer. Field drop full stuff.\nSend wrong throughout enough. Professor wide edge present field choose. Including best really side.","estimatedTime":"4 weeks","previewFileId":"0fc00f79-909b-4e14-bc2d-910023197f92","createdByUserId":"ea151ecb-2e6a-46d9-9d4e-baddab3f1b75"}'

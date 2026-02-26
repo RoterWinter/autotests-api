@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjQ4OjIxLjE3ODU4MiIsInVzZXJfaWQiOiI3ZmM1YTZkNy1jMWZkLTQwNzMtODhhNS03NGM0NTY0MTcwZjkifQ.CzOAXqUVRb5vlkQSnKTjLGGF1ysy4e4jRXWtUutgqmw' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much into old edge senior.","maxScore":82,"minScore":18,"description":"Less movie life. Six knowledge thousand radio face.\nBeyond single remain my practice. Argue general voice young three rise executive wrong.","estimatedTime":"2 weeks","previewFileId":"fc5ae7a3-4ad2-421b-b2c6-4342dcbebba2","createdByUserId":"7fc5a6d7-c1fd-4073-88a5-74c4564170f9"}'

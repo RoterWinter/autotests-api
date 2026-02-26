@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from pydantic import BaseModel, HttpUrl, Field
 
 # Импортируем заранее созданный экземпляр класса Fake
@@ -9,7 +11,7 @@ class FileSchema(BaseModel):
     Описание структуры файла.
     """
     id: str
-    url: str
+    url: HttpUrl
     filename: str
     directory: str
 
@@ -22,7 +24,7 @@ class CreateFileRequestSchema(BaseModel):
     filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     # Директорию оставляем статичной, чтобы все тестовые файлы на сервере попадали в одну папку
     directory: str = Field(default="tests")
-    upload_file: str
+    upload_file: Path
 
 
 # Добавили описание структуры ответа на создание файла

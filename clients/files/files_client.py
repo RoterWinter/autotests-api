@@ -1,3 +1,4 @@
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
@@ -28,9 +29,10 @@ class FilesClient(APIClient):
         return self.post(
             "/api/v1/files",
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
-            files={"upload_file": open(request.upload_file, 'rb')}
+            files={"upload_file": request.upload_file.read_bytes()}
         )
 
+    @allure.step("Delete file by id {file_id}")
     def delete_file_api(self, file_id: str) -> Response:
         """
         Метод удаления файла.
@@ -43,7 +45,7 @@ class FilesClient(APIClient):
     # Добавили новый метод
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         response = self.create_file_api(request)
-        return response.json()
+        return CreateFileResponseSchema.model_validate_json(response.text)
 
 
 def get_files_client(user: AuthenticationUserSchema) -> FilesClient:

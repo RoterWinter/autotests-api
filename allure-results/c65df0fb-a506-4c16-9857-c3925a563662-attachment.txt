@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjE4OjQ4Ljc0NTA2OCIsInVzZXJfaWQiOiJiOTE4MmNlNy1mYjZlLTRkNzktOGE0Ni1mMmQzM2YyNmVkMTkifQ.ijdsueP9oGKp39sn8ansMOHXpLJ4BcM-yMSrG_ko6CY' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power bad four entire.","courseId":"347005a8-175a-46c4-aa5a-06803026b90e","maxScore":79,"minScore":18,"orderIndex":39,"description":"Spring back this our ok rock arm. Know certainly before beautiful. Fear view policy tonight maybe serious.","estimatedTime":"1 weeks"}'

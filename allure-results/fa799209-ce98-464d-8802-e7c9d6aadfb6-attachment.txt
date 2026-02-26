@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjE4OjQ5LjMyMzM4MCIsInVzZXJfaWQiOiJjNmQ0MzdiNy0yZjBjLTQ3ZDMtYTUxZS0yYWRhZTJiMTA2MDAifQ.fdvATPGCsetreGbSzEM6BAqzoGkYFO3GiLmEBYX-gME' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure administration security executive.","courseId":"82896f59-fbce-4440-861d-21ab1c3710ee","maxScore":55,"minScore":18,"orderIndex":10,"description":"Plant those class put wife. Tough lot still number of black.\nSix type adult stop. Former law bank easy. Give sometimes senior author back.","estimatedTime":"8 weeks"}'
