@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDE1OjAxOjI5LjAzMjEzOSIsInVzZXJfaWQiOiJiMTgxZTAxNC1jYjVkLTQzN2QtYjQ5MS02YTU5NzZkNTE0NzkifQ.YIc-DPAoyON1k-3dEp3MNAaGcMIzR7iy75shUL911ow' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behavior partner role dog continue.","maxScore":86,"minScore":17,"description":"Since reality body build. Number then challenge policy most. Realize ball billion minute. Ready four expert.","estimatedTime":"6 weeks","previewFileId":"e60ea81a-f3d9-4040-beba-aebce02f4284","createdByUserId":"b181e014-cb5d-437d-b491-6a5976d51479"}'

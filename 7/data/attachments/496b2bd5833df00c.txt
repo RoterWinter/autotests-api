@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Share ten similar.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Sure unit character management red class matter. Allow arrive degree truth the.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to e244c505-fb4f-4c22-a420-fa8edced9387
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to f37ff4d3-5fcd-45d3-8a58-e3752bb7c4fb
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDE1OjAxOjMxLjQ0MzU5NyIsInVzZXJfaWQiOiJlNmE2N2ZiMi1lOGEwLTQ5NjctOGZkMC1iOWE4YjcwYWJmNTkifQ.bznYyYmMT7WefpZaxJnU3wPC0BKc1rqmqcI7Gmln9s8' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind around foreign lay.","maxScore":92,"minScore":21,"description":"Task type across. Everything senior remain way avoid.\nIncrease wrong energy identify develop structure establish. Window to whatever.\nDo however weight summer. Poor seek pretty early pass.","estimatedTime":"6 weeks","previewFileId":"9c11ed60-68d5-4036-89ed-5135518345aa","createdByUserId":"e6a67fb2-e8a0-4967-8fd0-b9a8b70abf59"}'

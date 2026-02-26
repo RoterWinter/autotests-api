@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDE1OjAxOjI2LjY5OTgxNiIsInVzZXJfaWQiOiJmZTMzMGI2MC04YTZmLTQzMmQtYTliMS0zOGU0YTMxNTQ5MGQifQ.4eqHVZ75CrvzWdULZv6ca8Bkp_VmZwr0RIeFD6PfORc' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region risk activity bar point message early small.","maxScore":60,"minScore":10,"description":"Third white lose three her popular. Eat traditional network leave will into.\nProperty oil painting model certainly score whom. Early yes many. Improve enough rich air gun new son.","estimatedTime":"2 weeks","previewFileId":"a7610027-3b6b-4f97-95da-9eb03dae1fe2","createdByUserId":"fe330b60-8a6f-432d-a9b1-38e4a315490d"}'

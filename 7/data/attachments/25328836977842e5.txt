@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDE1OjAxOjMwLjQ5NzA3NyIsInVzZXJfaWQiOiJhMDAwZDNlZC00NWUzLTQ3MTYtYTRiMi0xZGVmNmZhZjRjMTAifQ.WwhBkWGSOXWEMYkPeSzP98o99D3QUw4UpD7lNM6l6nk' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hospital wish family bar child set business similar.","maxScore":50,"minScore":15,"description":"Best event hold how water school. Official son physical church.\nGreat discussion cost baby often. Rather allow never daughter.","estimatedTime":"1 weeks","previewFileId":"aa52670d-afab-4bef-abf3-767436eb35d9","createdByUserId":"a000d3ed-45e3-4716-a4b2-1def6faf4c10"}'

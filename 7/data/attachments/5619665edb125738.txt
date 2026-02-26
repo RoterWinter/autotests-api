@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDE1OjAxOjI5LjAzMjEzOSIsInVzZXJfaWQiOiJiMTgxZTAxNC1jYjVkLTQzN2QtYjQ5MS02YTU5NzZkNTE0NzkifQ.YIc-DPAoyON1k-3dEp3MNAaGcMIzR7iy75shUL911ow' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over case discover he certainly indeed.","courseId":"4495a0ee-3b17-4a2a-b7b8-6ce6a717f26d","maxScore":100,"minScore":3,"orderIndex":28,"description":"Sometimes work own very job. Listen over structure before capital.\nAcross fly will. Subject seat executive leader.","estimatedTime":"5 weeks"}'

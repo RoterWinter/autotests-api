@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Over case discover he certainly indeed.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 4495a0ee-3b17-4a2a-b7b8-6ce6a717f26d
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 100
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 28
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Sometimes work own very job. Listen over structure before capital.
+Across fly will. Subject seat executive leader.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
