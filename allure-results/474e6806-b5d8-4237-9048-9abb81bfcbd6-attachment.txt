@@ -1,0 +1,23 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/1633a625-e359-4227-9fb6-67006f905aea
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/1633a625-e359-4227-9fb6-67006f905aea
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "id" equals to 1633a625-e359-4227-9fb6-67006f905aea
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "title" equals to Finally keep bring turn.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to aedbee82-b5a2-4510-9ad7-66f48c234f8f
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 65
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 6
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 3
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "description" equals to However drive late which prove research TV. Study radio determine million soon four law. Cold billion building character.
+Rather meeting note game could through service.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

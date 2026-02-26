@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA5OjUyOjE2LjAxNDA2OSIsInVzZXJfaWQiOiJiZDA3NWRhYi03ZDhmLTQ1ZDAtOWYxOS0zNGNmZTc3NWVlNWQifQ.VGHnYIBW6xVN-tE3iw2rY4lsepI-veF8C48bvnQPGWM' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip allow candidate deal.","maxScore":60,"minScore":30,"description":"Explain camera attention cut. Financial car relationship although fear summer fire.","estimatedTime":"1 weeks","previewFileId":"04377f9e-6f91-4c4e-be4d-271d78d4eb45","createdByUserId":"bd075dab-7d8f-45d0-9f19-34cfe775ee5d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA5OjUyOjE0LjE5MjE0OCIsInVzZXJfaWQiOiJjMWVjZDU1Yi0wNzkyLTQ3ZWYtOGQwZC0wZTNkZDZkMjRlNTAifQ.oG4ejWOHVM9nXJUoGFiQhifNwkZVIlisfmomRPHAK0k' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly civil alone approach section mouth bed.","maxScore":79,"minScore":13,"description":"Best Mr nation why magazine. Future certainly another short rule quite teach.\nSubject wonder thing check company down plan. Career discussion possible commercial floor environment.","estimatedTime":"4 weeks","previewFileId":"8abb6af4-99f1-46e7-8f32-587d0a420728","createdByUserId":"c1ecd55b-0792-47ef-8d0d-0e3dd6d24e50"}'

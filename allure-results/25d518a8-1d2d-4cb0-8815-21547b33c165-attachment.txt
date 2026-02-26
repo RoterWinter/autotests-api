@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA5OjUyOjEzLjA0NjIxMSIsInVzZXJfaWQiOiI2MWU4N2Q5Ny02YWVhLTRiNGUtODUzMi1iYzNmMzhlZTIyMWMifQ.G-ULt1NHVjTuOjlaJpv4x4oY4Dr1dUHpFsDn8fZxEec' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden third throughout still sport technology.","maxScore":98,"minScore":15,"description":"Indeed everything group resource travel offer.\nSense edge establish follow significant black. Out democratic have thought lose minute. Glass need foreign government fast serve.","estimatedTime":"7 weeks","previewFileId":"05976ac8-31a1-4dfc-b6dd-e7625570be80","createdByUserId":"61e87d97-6aea-4b4e-8532-bc3f38ee221c"}'

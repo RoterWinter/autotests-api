@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/courses/ae020460-fa56-4460-80c9-84145b80befc
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/ae020460-fa56-4460-80c9-84145b80befc
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "title" equals to Tree notice section treat truth process.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 70
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 27
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "description" equals to Class two son staff scientist. Who present mean public develop hit color.
+And money nearly enough plan. These town each new certain behavior. Teacher important lawyer how outside.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
