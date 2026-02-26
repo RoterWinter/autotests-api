@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Draw whatever region project church stock tonight.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to c33ed63a-8bc7-4d58-8549-f4a8582e90e5
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 25
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Coach until force day low style often. Boy surface ten present service argue hour.
+Rather police join democratic. Last firm peace open. Cover sometimes term window.
+Each according either right.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

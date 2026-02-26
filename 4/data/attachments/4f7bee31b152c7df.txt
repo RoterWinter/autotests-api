@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQyLjY2NDc2MiIsInVzZXJfaWQiOiI4YTI4ZWJhNi1jYzZlLTRiNmEtOThiYi05YjdkOGNlZDI3NDEifQ.nSEFhFutS53d9oLTZrJnaR_OYCIEscuiMc9CJunj9ts' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later opportunity one east much here whether prevent.","maxScore":55,"minScore":20,"description":"Always meet bill contain. Before who age effect if.\nAgo contain shoulder look.\nNecessary doctor front and. Situation event woman born father official information.\nSuch paper number ask language.","estimatedTime":"4 weeks","previewFileId":"d74cbdaa-8ac1-4024-92bf-55318ea5432b","createdByUserId":"8a28eba6-cc6e-4b6a-98bb-9b7d8ced2741"}'

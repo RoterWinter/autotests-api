@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Later opportunity one east much here whether prevent.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Always meet bill contain. Before who age effect if.
+Ago contain shoulder look.
+Necessary doctor front and. Situation event woman born father official information.
+Such paper number ask language.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to d74cbdaa-8ac1-4024-92bf-55318ea5432b
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to 8a28eba6-cc6e-4b6a-98bb-9b7d8ced2741
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

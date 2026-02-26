@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQxLjE4MjQ3OSIsInVzZXJfaWQiOiI2ODViODQ3Ni1lODYyLTQzZWQtYWM2MS1jMDY0OWFkMjE4MGQifQ.C4FhNhUUDoP4J52ivynXOHyIwSU1OD20bWWx9E0RLRA' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"House character before the.","maxScore":86,"minScore":10,"description":"Research financial beyond level ever. Inside choose answer road training style role plant. Lawyer evidence participant important instead television.","estimatedTime":"2 weeks","previewFileId":"b3d56d94-de22-45da-a54b-5d006a4cf5a8","createdByUserId":"685b8476-e862-43ed-ac61-c0649ad2180d"}'

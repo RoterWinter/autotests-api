@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQyLjA3OTg0OSIsInVzZXJfaWQiOiI0YjdjOTU5Ni1hMDgzLTQ5NjYtYjkxMS1jMDQzODY3MTcyNDYifQ.DOxPFuBBjiDeeAYxD2R6tMXMgvUcmy4b2b7aPC6IdEY' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home away out prepare cause seek sing.","maxScore":63,"minScore":12,"description":"Success behavior sometimes Mrs. Doctor different week. Indeed be together hotel house collection future.\nGreen ten expect. End others factor standard interview tell.","estimatedTime":"7 weeks","previewFileId":"0504139b-9792-47db-a2d5-d32d86103793","createdByUserId":"4b7c9596-a083-4966-b911-c04386717246"}'

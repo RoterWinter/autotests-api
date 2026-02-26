@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQ1LjA0OTE3NiIsInVzZXJfaWQiOiI3ZGM0NmFkNy0wMzczLTQ0YmMtYWVmOC1mYWMyNjI5ZjNlNWMifQ.4eaeb3WW25svJoqwBzreT9skZ6rpbG-AvENO52mnWoQ' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term future sense visit former camera.","courseId":"21691505-012d-4107-9935-f7ab7b55337b","maxScore":69,"minScore":29,"orderIndex":44,"description":"Myself good quickly present red top. Official speech long rate education little difference maybe.\nMaterial few green company. Design sure ask deal different.","estimatedTime":"3 weeks"}'

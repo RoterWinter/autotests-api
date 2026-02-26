@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQ0LjQ2MzY2NiIsInVzZXJfaWQiOiJjMjA2ZjE1Ni0zOTFlLTQzYTUtODc4Ni1jNGNmODk3ODFhMjUifQ.GHTVfWZ7I6wvK-SL4sKKloUcdN6tuvH9NFfhVK_l42Q' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window through agree western science.","courseId":"7664c0f1-a42a-47fb-8319-e4fa28ee16ae","maxScore":98,"minScore":2,"orderIndex":18,"description":"Matter there blood arm take various. Art be couple yard. Face whole fear marriage town draw while.\nBorn treatment south. Former color grow deal under industry assume.","estimatedTime":"10 weeks"}'

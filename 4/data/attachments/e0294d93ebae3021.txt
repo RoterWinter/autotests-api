@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQzLjgzMzE1NSIsInVzZXJfaWQiOiI1MzcxMTcwMC00Y2EyLTRhYjgtOTkzNy0zMDMwODdmYWFmMWEifQ.SqvG-OooIFUwxAVXgrHvKa7jAmepaJqvykjWlXipXwo' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put argue yeah get dream task.","maxScore":89,"minScore":2,"description":"Whole computer serious sense week baby animal kind. What effect treatment letter born exist health.","estimatedTime":"8 weeks","previewFileId":"76827321-902a-4a88-8a81-f566825a914a","createdByUserId":"53711700-4ca2-4ab8-9937-303087faaf1a"}'

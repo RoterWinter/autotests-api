@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQzLjI0Nzk0OCIsInVzZXJfaWQiOiI5MWFmNmU1Mi0wMGUzLTQ1MzEtODc1Ny02ZWI4NTZjZGU4YjQifQ.QJBYfiISNia0kqgZnDqpT0snJ7rHsqnsK-fuujUEBP0' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw whatever region project church stock tonight.","courseId":"c33ed63a-8bc7-4d58-8549-f4a8582e90e5","maxScore":86,"minScore":4,"orderIndex":25,"description":"Coach until force day low style often. Boy surface ten present service argue hour.\nRather police join democratic. Last firm peace open. Cover sometimes term window.\nEach according either right.","estimatedTime":"7 weeks"}'

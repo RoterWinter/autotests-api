@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQ1LjA0OTE3NiIsInVzZXJfaWQiOiI3ZGM0NmFkNy0wMzczLTQ0YmMtYWVmOC1mYWMyNjI5ZjNlNWMifQ.4eaeb3WW25svJoqwBzreT9skZ6rpbG-AvENO52mnWoQ' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book stop similar.","maxScore":64,"minScore":17,"description":"Total assume during institution. Executive glass large production suffer white well. Weight develop magazine leader three. Friend contain paper wait bed early nor.","estimatedTime":"5 weeks","previewFileId":"c113f08b-1975-4b1a-bb8c-27d883a87007","createdByUserId":"7dc46ad7-0373-44bc-aef8-fac2629f3e5c"}'

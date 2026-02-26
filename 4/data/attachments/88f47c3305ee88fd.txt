@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7f7b4291-2d40-4ad6-b95d-a59e13044e47' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQxLjE4MjQ3OSIsInVzZXJfaWQiOiI2ODViODQ3Ni1lODYyLTQzZWQtYWM2MS1jMDY0OWFkMjE4MGQifQ.C4FhNhUUDoP4J52ivynXOHyIwSU1OD20bWWx9E0RLRA' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly attack manage situation develop me.","maxScore":99,"minScore":14,"description":"Morning animal deep food instead. Manager research us size type. Mind pressure idea against even method life.","estimatedTime":"9 weeks"}'

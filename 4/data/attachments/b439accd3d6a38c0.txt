@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQzLjI0Nzk0OCIsInVzZXJfaWQiOiI5MWFmNmU1Mi0wMGUzLTQ1MzEtODc1Ny02ZWI4NTZjZGU4YjQifQ.QJBYfiISNia0kqgZnDqpT0snJ7rHsqnsK-fuujUEBP0' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score time growth anything.","maxScore":50,"minScore":4,"description":"List our ground range summer. Individual shake work tend first author ok between. Fire serve treatment each.\nCentral much respond sort exist sing investment. School case news available popular.","estimatedTime":"8 weeks","previewFileId":"949361f6-c687-451d-9122-dd4ffd1495b7","createdByUserId":"91af6e52-00e3-4531-8757-6eb856cde8b4"}'

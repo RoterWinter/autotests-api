@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDEyOjMxOjQ1LjcwNzI4NyIsInVzZXJfaWQiOiJjNTFkMDJkYS04NDQ3LTQ3ZGEtOGExOC1iN2ZjZGM5Njk4MjgifQ.xoqga1LbFNmBhmVFYr8DC9xd5i_uoQGtBjlHdGg9Cr8' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must her together watch result plan each.","maxScore":90,"minScore":23,"description":"Dark set picture major half. Answer media growth begin.\nOil civil improve open any recent fill base. My seven lose company maintain.\nNothing keep show improve whether school. Door sign man machine.","estimatedTime":"9 weeks","previewFileId":"98be2f95-9117-4d80-b741-1b6d7b3da4dd","createdByUserId":"c51d02da-8447-47da-8a18-b7fcdc969828"}'
