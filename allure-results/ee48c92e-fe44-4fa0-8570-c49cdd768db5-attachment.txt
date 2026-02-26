@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjI4OjU3LjUwNDEyNCIsInVzZXJfaWQiOiJjOTRiNTM5Yi02ZTNhLTQ2MGMtYjc0MS0zYjIxYjExZTAzODAifQ.b3_W-A4_Vl0VBbaPGiWUG2q6J6lThIccx1Va1Q130SE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including share glass important year.","maxScore":67,"minScore":19,"description":"Better citizen technology prevent look site. Say nothing so number each add. Teach first build you away story.\nYoung campaign even. Black herself ready dinner century.","estimatedTime":"10 weeks","previewFileId":"908f938d-712c-459e-9948-f21a014ba88b","createdByUserId":"c94b539b-6e3a-460c-b741-3b21b11e0380"}'

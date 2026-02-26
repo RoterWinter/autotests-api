@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjU1OjE1LjkwODkzMCIsInVzZXJfaWQiOiI3MGMyYTkxZi03YjgzLTRjNzUtYWExOS02NzhjYTdhMTM2M2IifQ.nykNSrJnosZIJ5kqpN-b1Isrg9hAJaaSwnyWs4GTzIU' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost figure total hot personal south pressure.","courseId":"00625847-5dbc-4ed4-a862-553407328ccd","maxScore":87,"minScore":18,"orderIndex":59,"description":"Yard myself scene hundred. Add spring drive run age outside include. Move spring long agree loss performance science. Last manage from contain science teacher wide.","estimatedTime":"7 weeks"}'

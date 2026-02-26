@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjI4OjU0LjM5OTQwOCIsInVzZXJfaWQiOiI2YTcxMjA2Ni00MjZkLTQ3ZWYtOWUzZi1lNTdhMDA3MTliMjEifQ.jWW-tIAeP5ptzjHFKpeSNuCs8X5GS9mg-S_wHfuySbM' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration effort theory early medical compare energy.","maxScore":66,"minScore":20,"description":"Fly take religious. Grow remain ball. Discuss against author choice call move magazine.\nAt down prepare hear. Ahead high company reality together couple different.","estimatedTime":"4 weeks","previewFileId":"fef9c669-442f-4295-9c7f-73fdfba0b500","createdByUserId":"6a712066-426d-47ef-9e3f-e57a00719b21"}'

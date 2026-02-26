@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA3OjU1OjE3LjUxODAwMiIsInVzZXJfaWQiOiJjNTkzYzFiNy1mNjliLTQ3MzMtYTQxMC1jMmVkNTMwNjNhNmEifQ.G_BIJPc8dXKBU2zLMrtYOzsH6mRniKn0koVHtAXGLN8' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Marriage simple happen full nearly.","maxScore":64,"minScore":3,"description":"Look we two enter movie debate however. We end argue film always. Place small size goal policy.","estimatedTime":"10 weeks","previewFileId":"6ba719b5-2bee-464c-a72d-d0449b0437ea","createdByUserId":"c593c1b7-f69b-4733-a410-c2ed53063a6a"}'
