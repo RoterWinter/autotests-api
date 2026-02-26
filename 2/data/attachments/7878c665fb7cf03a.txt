@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/027c5290-130c-4cdc-be46-990df9c67f59' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDExOjMyOjMzLjA4Nzg3NCIsInVzZXJfaWQiOiI4YjNmYzM2Ni1iNDM2LTQwZjktOGZkYi01NDkxZGE4M2I5YmUifQ.c7Svo5hEJ_TfcNjG_GXMzh_gYyb0veaSBbsHIGw-ZpU' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whom benefit thousand cold young money.","maxScore":61,"minScore":26,"orderIndex":41,"description":"Many never young type important home rest leg. Beautiful whatever health prove card size.\nCould health up month quite.\nEntire play project wall smile risk growth. Level believe man control.","estimatedTime":"2 weeks"}'

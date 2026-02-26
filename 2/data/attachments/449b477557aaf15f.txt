@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDExOjMyOjMzLjk5NzI1OCIsInVzZXJfaWQiOiJmYmE5ZTZlNC0xZjhlLTRiMGMtYTg2Ny0yNDJmNTRjYTQzMDgifQ.6ilLOtRz2_9MY7PP1QypUFSri6VWrhmLVZNrVX29Hko' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Again religious interest per note need still.","courseId":"c25c04ba-0a13-4d82-88f3-186f56f67dd9","maxScore":92,"minScore":2,"orderIndex":16,"description":"Center music administration. Create happen sing through find. Certainly will condition school son.\nBehind painting help detail car city avoid billion.","estimatedTime":"8 weeks"}'

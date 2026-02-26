@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDExOjMyOjMyLjgxNTAxOCIsInVzZXJfaWQiOiIwZTRhNTVhNC03ZjNkLTRkMTMtYTkzZi04NGE5MDU4OGEwYWEifQ.r1Qv47RvepyM2icy8p81AJGqlZpId1JRPhfDdYbRVEU' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out huge detail begin understand.","maxScore":68,"minScore":21,"description":"Across thing clear project weight kitchen. Stop thank nation.\nMost talk spring analysis community. Under meeting personal picture.","estimatedTime":"10 weeks","previewFileId":"c43cb123-266a-4919-9c1b-617dfee90f9f","createdByUserId":"0e4a55a4-7f3d-4d13-a93f-84a90588a0aa"}'

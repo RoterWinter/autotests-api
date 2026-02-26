@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDExOjMyOjMwLjQ4MzI3NyIsInVzZXJfaWQiOiIxNDczYWE0Yy1mNmZhLTQxNmMtOGM1ZS05ZDFjM2YxZDhiZTUifQ.RKiuqfqfwxkY5VP9xHHtBFbjgjSvS9cA7tQf0HtoCzI' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay save lawyer somebody line bar but hold.","maxScore":60,"minScore":9,"description":"Live gas early visit nor since TV. Country family machine shoulder. Ground store who prove treat. Several federal science person these.","estimatedTime":"1 weeks","previewFileId":"fe5a693d-03fe-4507-a4f1-c985e3e5aa0e","createdByUserId":"1473aa4c-f6fa-416c-8c5e-9d1c3f1d8be5"}'

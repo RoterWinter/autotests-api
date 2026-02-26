@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDExOjMyOjMzLjA4Nzg3NCIsInVzZXJfaWQiOiI4YjNmYzM2Ni1iNDM2LTQwZjktOGZkYi01NDkxZGE4M2I5YmUifQ.c7Svo5hEJ_TfcNjG_GXMzh_gYyb0veaSBbsHIGw-ZpU' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control film name hope girl.","courseId":"fd6ee3c7-7290-4690-838f-ad2f1096962e","maxScore":96,"minScore":14,"orderIndex":8,"description":"Part marriage figure claim concern. Relate specific thousand allow might. Scene too lay movie doctor.","estimatedTime":"5 weeks"}'
