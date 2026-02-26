@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjU3OjMzLjk4ODkwNCIsInVzZXJfaWQiOiIyOWNkMDk4Yi01YmM5LTQ5ZDUtOTgwNC1mMzRhYzJiNDkyODkifQ.KuMdfb1F_k2OnDaJjrSE2UQzqId7bEK6bHt1R7ambxM' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White enough million.","courseId":"b7c73902-200b-4654-8867-836d514df6f2","maxScore":74,"minScore":14,"orderIndex":87,"description":"West fly support bring. Brother be suffer mission bad alone bad all. Risk left follow son trouble.\nMoney adult four let choice fight. Who should direction husband.","estimatedTime":"10 weeks"}'

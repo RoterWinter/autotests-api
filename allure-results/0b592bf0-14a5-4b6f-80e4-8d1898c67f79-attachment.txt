@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjU3OjMzLjk4ODkwNCIsInVzZXJfaWQiOiIyOWNkMDk4Yi01YmM5LTQ5ZDUtOTgwNC1mMzRhYzJiNDkyODkifQ.KuMdfb1F_k2OnDaJjrSE2UQzqId7bEK6bHt1R7ambxM' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern involve call them go.","maxScore":53,"minScore":23,"description":"Study realize line well action. More bag lot edge sound letter rock. Find church fish himself garden PM build.\nHeart it high affect ground. Smile population game ahead can Mr feeling.","estimatedTime":"1 weeks","previewFileId":"356a4c83-5629-4dec-8ea0-54090c279147","createdByUserId":"29cd098b-5bc9-49d5-9804-f34ac2b49289"}'

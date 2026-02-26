@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "title" equals to Each support doctor participant.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 98
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 28
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "description" equals to Which outside major cover home sing measure meet. About send enter history.
+Page sure foreign job protect wait pay. Soon bit state still the who.
+Treatment hope hour close trial level.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 3 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 7a1b7358-b405-4d82-af52-7f8069354ce8
+[32mINFO    [0m BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to 97564be2-a397-458a-b559-6dd01a29a54e
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

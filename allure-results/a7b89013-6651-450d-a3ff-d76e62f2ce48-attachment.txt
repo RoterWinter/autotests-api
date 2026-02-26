@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjU3OjMyLjcxODQ3NyIsInVzZXJfaWQiOiJmZDc3NWJmYy1kNTAxLTQ2YmUtOGMzNS0yMDQ4N2FjMWUxYWUifQ.XZOkL-kpo38iPPuditk1BO99bDB-TtYl9Ei9hbbmwJY' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fund black far mother police cell first.","courseId":"5690b5c0-c048-4c98-8ae5-b7833efe0437","maxScore":72,"minScore":27,"orderIndex":37,"description":"Recent summer radio skin. Medical behavior run if. Machine relate maintain protect.","estimatedTime":"8 weeks"}'

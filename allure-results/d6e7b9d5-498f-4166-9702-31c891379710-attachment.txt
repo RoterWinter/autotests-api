@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1ed39721-5da1-44ce-8159-1f258fd17939' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA5OjAzOjA3LjY4NzEwNCIsInVzZXJfaWQiOiI2Nzk0YmE0ZC00ODE2LTQwYjAtOGRiNC04ZjEwMWU5MjNlOTYifQ.AcBh_5dYd3NkqB4hvwebUrD5kZlJHjpJzP1RYA1JeEs' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who fill stop officer court wear seat.","maxScore":92,"minScore":8,"description":"Part federal marriage increase study skill behind teacher. Together event Democrat yeah east gas line. Identify our TV by than man my.","estimatedTime":"1 weeks"}'

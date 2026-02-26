@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA5OjAzOjA5LjQwMjg5NSIsInVzZXJfaWQiOiJkOTUwNmVlNy1jYjc4LTQ2NjktYmZlOC0yYjVhYTQ2OTQzN2UifQ.uMMs2Q-M2AMfvv4MJfkYG-MkD6V_FCe1sHVEszgTxYc' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How college another benefit method push expect.","maxScore":55,"minScore":4,"description":"But true off leave. Something home conference arrive threat.\nDrop price this seat another true. Trip figure operation line during. Art age focus early.","estimatedTime":"1 weeks","previewFileId":"e3d307cb-a306-437d-a881-5802a764f891","createdByUserId":"d9506ee7-cb78-4669-bfe8-2b5aa469437e"}'

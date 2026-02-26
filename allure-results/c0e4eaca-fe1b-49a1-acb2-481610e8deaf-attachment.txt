@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA5OjAzOjExLjE0MDk0MyIsInVzZXJfaWQiOiJhZTU5Mjk1ZC02YzUyLTRkZmUtOWNiYS05ZDBjOTVjNTViODEifQ.m8CjmXBKGQC4wZurxiEUo4KsqauRiigFRXLhu_5jLhQ' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example cover agent their.","maxScore":93,"minScore":18,"description":"Positive care physical similar standard what very. Seven laugh use get travel any.\nGrowth deal about choice low economic. Wait maybe raise question other Mr. Activity staff message it.","estimatedTime":"1 weeks","previewFileId":"a30bd8c5-7a84-4840-8eed-4a90c8d6846e","createdByUserId":"ae59295d-6c52-4dfe-9cba-9d0c95c55b81"}'

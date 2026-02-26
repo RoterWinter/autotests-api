@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjU3OjMyLjEyNjc1NSIsInVzZXJfaWQiOiJhMmU3NGE1MS00NDEzLTQ1NjgtODVhZS1lNTU4MTI4Y2U5YzYifQ.gsW263UC94W2CtGMF3CCPEWdEas0yowzYwW_i5MRWrg' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible worker environment foreign exist American.","maxScore":51,"minScore":9,"description":"Floor blood ground. Present thus officer third message surface. Week control newspaper green customer reflect age.\nCard serious education leg seven nation. Debate too culture leader debate.","estimatedTime":"6 weeks","previewFileId":"eb3f33b4-991c-4422-8dd1-d44feeaa1cbf","createdByUserId":"a2e74a51-4413-4568-85ae-e558128ce9c6"}'

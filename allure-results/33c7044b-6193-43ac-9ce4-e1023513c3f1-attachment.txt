@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDA4OjU3OjMxLjM5NDM1NiIsInVzZXJfaWQiOiIxMTA4YzRjYi01NjdmLTRmY2ItYWEwNC1kZWI4YjU0NjA5MjAifQ.lOFV11Y7msbArRs7drDB-T1bm90VMcD15rGMG_TBHcI' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care spring about fly animal.","maxScore":79,"minScore":27,"description":"Notice prevent room bit many. Participant culture item traditional.\nType western trial forward bag. Give magazine remain tell listen.","estimatedTime":"2 weeks","previewFileId":"367b0a35-1767-4e72-b125-573ec4bd9610","createdByUserId":"1108c4cb-567f-4fcb-aa04-deb8b5460920"}'
