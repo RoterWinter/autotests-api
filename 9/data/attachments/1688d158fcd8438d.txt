@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjIzLjU4MzI5OCIsInVzZXJfaWQiOiJjNmI5N2JjMS05ZTRkLTQ3Y2MtYjNmYi0yNGNlMTc1YTgyNjYifQ.z8m-zlFzdF8_HoThux65uMJtx-2Wea8J_yNuVEhSUvw' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue body commercial every strategy lose town.","maxScore":72,"minScore":7,"description":"Future network card billion doctor. Show professional eat reason.","estimatedTime":"8 weeks","previewFileId":"e293315d-2474-45b4-a843-4b46c23b44d2","createdByUserId":"c6b97bc1-9e4d-47cc-b3fb-24ce175a8266"}'

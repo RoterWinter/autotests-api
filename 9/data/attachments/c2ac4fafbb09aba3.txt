@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjI0Ljc3NDY2NSIsInVzZXJfaWQiOiIwYThiYzc2OS1hNzJmLTQwNjgtOTYxYy04YjE4MGE0OGQ5NTMifQ.1SbPgLj6g_2F9R0kgiTQ14gJI_4-v6Pr4Ag0zwVgjb0' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Explain prevent vote stand.","maxScore":63,"minScore":20,"description":"Door write night daughter. Star our as hot role.\nSummer green realize office visit administration. Morning article of which think wish man benefit.","estimatedTime":"5 weeks","previewFileId":"603e22e7-c88c-48e1-a374-fc71afa6748e","createdByUserId":"0a8bc769-a72f-4068-961c-8b180a48d953"}'

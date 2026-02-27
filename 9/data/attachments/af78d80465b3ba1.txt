@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjIyLjE1NjMwOSIsInVzZXJfaWQiOiI1YjQ4OGFjZC04YmNmLTQ5MjAtYjMxMS0xMWE2MDFkODFmMDEifQ.uUuMpVK4uOef7ti13GyMSdmoHeHmDFRqMIjXXj8ag6Q' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When current style north.","maxScore":88,"minScore":19,"description":"Dog form determine strategy out. Threat care save spring maybe attention sense evening.\nMarket exist size state. Race body report population.","estimatedTime":"3 weeks","previewFileId":"caa1fd60-894f-4be8-8937-7f7cf04665c7","createdByUserId":"5b488acd-8bcf-4920-b311-11a601d81f01"}'

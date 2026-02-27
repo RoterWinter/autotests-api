@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fedfb7f7-a464-4c3c-9d0d-ddf476d58ce6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjIyLjE1NjMwOSIsInVzZXJfaWQiOiI1YjQ4OGFjZC04YmNmLTQ5MjAtYjMxMS0xMWE2MDFkODFmMDEifQ.uUuMpVK4uOef7ti13GyMSdmoHeHmDFRqMIjXXj8ag6Q' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply improve may source official good.","maxScore":66,"minScore":1,"description":"Wonder by movement compare store material provide. Notice whether may often standard particular option especially.\nAlthough open car arrive son why cultural not. Generation area wrong reduce.","estimatedTime":"7 weeks"}'

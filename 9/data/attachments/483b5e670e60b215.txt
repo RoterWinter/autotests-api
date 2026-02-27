@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjI1Ljk1ODc2NiIsInVzZXJfaWQiOiI0NmIxOGZkZC1iNTQxLTRjZTctOTBmNS1iNDY5ODZiMTEyNzgifQ.wlbGjsysRoiLWJFf-NDDCBDV83ul_ZOHfui4XkW52qI' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry newspaper admit watch business.","maxScore":82,"minScore":14,"description":"Character spring mention. While own before. Today the really long chair someone star.","estimatedTime":"2 weeks","previewFileId":"5f07fa5d-bca1-4de1-a642-71ff22b9281b","createdByUserId":"46b18fdd-b541-4ce7-90f5-b46986b11278"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjI1LjY4NTM4NSIsInVzZXJfaWQiOiIwODVkMGQ2Ni1hYjJlLTRmNTMtYTBhMC1jOWUzY2YzMjNlMzAifQ.URGaSsUaalGUGIP9aUVF1FQUuOLlKUuoINhZ4m9r-k4' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Detail person line will.","maxScore":53,"minScore":2,"description":"Garden total manage future. I image little social.\nMay yet street off this. Beautiful director soon popular kitchen picture nothing.","estimatedTime":"2 weeks","previewFileId":"dbf6b589-6b6f-4316-bf06-7046c85458ae","createdByUserId":"085d0d66-ab2e-4f53-a0a0-c9e3cf323e30"}'

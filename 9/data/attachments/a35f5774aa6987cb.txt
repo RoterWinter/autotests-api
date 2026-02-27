@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjIzLjMwODg0OSIsInVzZXJfaWQiOiIxMGQ4YTgwMS00NzhjLTQ5ZmUtODYyMi01YjBiZTczODM2ZWEifQ.C5UHG6I6seGUn87EwdlaKqcLKsB543z1m-RuI7QgQRo' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Way energy usually.","maxScore":64,"minScore":30,"description":"Together sort amount data month. Few hot nothing daughter majority bank month. Difference explain meeting mention purpose.\nTrouble range lead message career. Trip manager knowledge member artist.","estimatedTime":"4 weeks","previewFileId":"fefe4c0a-b06b-4309-9526-0b8bdd43f8bb","createdByUserId":"10d8a801-478c-49fe-8622-5b0be73836ea"}'

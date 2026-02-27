@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjQwOjI2LjkwNTYzMCIsInVzZXJfaWQiOiJjNDU5NTc3Ny1lZmUxLTRjYzUtODAwNC01MDk2NjM4OTZhOWIifQ.1c1IL6uXb42bUcjE-JqYezK0GxvsLyewHcDF2EIC2vs' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring natural world.","maxScore":81,"minScore":15,"description":"Bank draw structure start single goal. Chair clear after number. Would life current. Everybody Republican century home rate eye better.\nFly skill describe little. Current option section race travel.","estimatedTime":"3 weeks","previewFileId":"af02ed10-6ed8-4efa-b344-958432cb9ba2","createdByUserId":"c4595777-efe1-4cc5-8004-509663896a9b"}'
