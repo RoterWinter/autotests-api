@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjQwLjk0OTg1MCIsInVzZXJfaWQiOiI0NmU1OGJhYS03OTZhLTQzMzktYTIwZS03MTQ1MWZjNjdjMTAifQ.K1CzXA9zVsM_kiaAbfc3sdmMWiLEo-Sh9FoV1YbgWUQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including position former.","maxScore":80,"minScore":19,"description":"Full near might rest be. Own heavy music open chance message more federal. Take never court third need environment then unit.","estimatedTime":"7 weeks","previewFileId":"9a8a5107-f2a7-4175-98dd-3b0eb4f53167","createdByUserId":"46e58baa-796a-4339-a20e-71451fc67c10"}'

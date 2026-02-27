@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/courses/495d5a04-955f-40e7-86b8-cc51fc416506
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/495d5a04-955f-40e7-86b8-cc51fc416506
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Style star out far.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Effort reduce special include that there source traditional. Sign human teacher sense professor. Same five economic stand specific upon him.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

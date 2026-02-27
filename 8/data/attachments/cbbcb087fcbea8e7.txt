@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/495d5a04-955f-40e7-86b8-cc51fc416506' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM2LjM4OTg2NyIsInVzZXJfaWQiOiIxOGEyM2NlYS0zY2I2LTQzMDItOTI0OS1jZjNhYWU3MWQwMjUifQ.sR0GhpszZH3cnVHzfjjkPZ6jAIGe7GizxcsQ0wdFla0' \
+  -H 'content-length: 241' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style star out far.","maxScore":91,"minScore":4,"description":"Effort reduce special include that there source traditional. Sign human teacher sense professor. Same five economic stand specific upon him.","estimatedTime":"7 weeks"}'

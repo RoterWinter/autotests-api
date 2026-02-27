@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Option stop think explain history same.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to His friend set include receive. Represent foot position rich.
+Interest board as price become per discover.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to ff00aa50-8e13-4b21-80b9-d157ed9fe385
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to 80cd4b80-bbe9-4684-be86-f4173b48fb8f
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjQwLjM2OTc1NyIsInVzZXJfaWQiOiI3ODY0YmU5Yi1kMTdjLTRmNjAtOTUxMC03ZDM2Y2I0ZWJmYmUifQ.SWy7LlDGyEWr6d_Qjx2SzpqhnumemtHYnB7CIqK74ro' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common crime difference attorney must window.","maxScore":62,"minScore":12,"description":"Conference remember her. Effect range the radio. Skill charge hand appear old.","estimatedTime":"2 weeks","previewFileId":"454de42d-6dc6-4a44-9c69-e2a0a0486f46","createdByUserId":"7864be9b-d17c-4f60-9510-7d36cb4ebfbe"}'

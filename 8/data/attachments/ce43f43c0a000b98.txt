@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM3LjI4MjQyNyIsInVzZXJfaWQiOiIzNGJlODAwOS02ZmFhLTQzYzgtYTI0NC01M2Y0ZWM3NTkwYTIifQ.jndOu1Qz7qbG2I8QddZcxOgcifgIcW0Q6QaXsaqAKPE' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question account election animal style.","maxScore":87,"minScore":2,"description":"Last image against world. Expect long rate reveal letter there if. Last whether beautiful risk oil.","estimatedTime":"7 weeks","previewFileId":"4339388b-d9c9-4ab6-9b19-ea1d2103518b","createdByUserId":"34be8009-6faa-43c8-a244-53f4ec7590a2"}'

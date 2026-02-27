@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM4LjUwNzAyMCIsInVzZXJfaWQiOiIzNDE2NGY5NS02MGQwLTRlMzktOTFmZi1kODYyYzQ3YThiZDcifQ.8yER-f-pjwzdAU3HbF3_xm402tvLNW629uHP6UfG5LI' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four expert half.","maxScore":64,"minScore":14,"description":"Mention on near various.\nVoice study watch trip number wear. Pick when history they. Fund drop actually subject much both.","estimatedTime":"6 weeks","previewFileId":"8d84d010-bc93-4028-a4b8-c922004dc158","createdByUserId":"34164f95-60d0-4e39-91ff-d862c47a8bd7"}'

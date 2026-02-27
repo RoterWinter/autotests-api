@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM4LjUwNzAyMCIsInVzZXJfaWQiOiIzNDE2NGY5NS02MGQwLTRlMzktOTFmZi1kODYyYzQ3YThiZDcifQ.8yER-f-pjwzdAU3HbF3_xm402tvLNW629uHP6UfG5LI' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account everyone quality recently movement hit.","courseId":"21fa0c1a-1c45-448b-8444-be5ba673dc79","maxScore":83,"minScore":10,"orderIndex":63,"description":"Out defense involve food. Two example food season later nation.\nSocial hold church shoulder book money. Product girl perhaps risk candidate eat.","estimatedTime":"8 weeks"}'

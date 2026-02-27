@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM2LjM4OTg2NyIsInVzZXJfaWQiOiIxOGEyM2NlYS0zY2I2LTQzMDItOTI0OS1jZjNhYWU3MWQwMjUifQ.sR0GhpszZH3cnVHzfjjkPZ6jAIGe7GizxcsQ0wdFla0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Politics say cause author practice.","maxScore":68,"minScore":16,"description":"Question model agree consider arm similar central design. Scene rock spend box fill require.\nSignificant down head green already vote. Author thank social fear understand policy number tough.","estimatedTime":"7 weeks","previewFileId":"bf58e9a2-254e-4eab-8fe0-207a27fdf2fb","createdByUserId":"18a23cea-3cb6-4302-9249-cf3aae71d025"}'

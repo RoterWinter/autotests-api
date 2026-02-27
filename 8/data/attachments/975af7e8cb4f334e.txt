@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM5LjEwMTM3NSIsInVzZXJfaWQiOiJlMTM0YmIxOC1iNjJhLTQwMDQtYjA0Ni1kNDMzMTJkMGI2NjMifQ.W5Espm9ZJDukgeerEwtQXUGk1icgeMoTYD2081c3kQU' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must its town allow federal soon authority.","maxScore":75,"minScore":20,"description":"Determine worry foot choose. Bag I matter believe hold particularly them.\nNote first blue any program economic. Simple rock sure little support discussion. Value rather describe power.","estimatedTime":"4 weeks","previewFileId":"07df5d51-8906-4671-92e2-79714495f9b6","createdByUserId":"e134bb18-b62a-4004-b046-d43312d0b663"}'

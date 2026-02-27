@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDA2OjM3OjM3LjkyNjA3MSIsInVzZXJfaWQiOiI4MGNkNGI4MC1iYmU5LTQ2ODQtYmU4Ni1mNDE3M2I0OGZiOGYifQ.DxtcK7y1baKWtL-rvauIWyh9rtQYuwPqqjvz__LHVbM' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option stop think explain history same.","maxScore":67,"minScore":15,"description":"His friend set include receive. Represent foot position rich.\nInterest board as price become per discover.","estimatedTime":"6 weeks","previewFileId":"ff00aa50-8e13-4b21-80b9-d157ed9fe385","createdByUserId":"80cd4b80-bbe9-4684-be86-f4173b48fb8f"}'
